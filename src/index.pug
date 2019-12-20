@@ -1,23 +1,6 @@
 extends tmpl/layout/layout.pug
 
 block content
-  h1 To Do List
-  .icon.icon-ic_dentaire
-  .row.text-center
-    .col-md-12
-      img(src='assets/img/vietnam.jpg' alt='CRM')
-  .row
-    .col-md-12
-      form
-        .form-group
-          label(for='js-todo-title') Title
-          input#js-todo-title.form-control(type='text', name='title', placeholder='title')
-        .form-group
-          label(for='js-todo-description') Description
-          textarea#js-todo-description.form-control(name='description', placeholder='description')
-        button#js-add-todo.btn.btn-primary.btn-block
-          span.glyphicon.glyphicon-plus(aria-hidden='true')
-          |  Add
-  .row
-    .col-md-12
-      todo-list.js-todo-list
+  include tmpl/pages/homePage/aboutUs
+  include tmpl/pages/homePage/studentList
+  include tmpl/pages/homePage/studentForm

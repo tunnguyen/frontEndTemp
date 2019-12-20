@@ -2,14 +2,6 @@
 @import 'common/mixins';
 @import 'common/bootstrap';
 @import 'common/general';
-
-todo-list { /* stylelint-disable-line selector-type-no-unknown */
-  .todo-item {
-    display: inline-block;
-    margin: 10px;
-    background: $todo-item-background-color;
-    padding: 10px 10px 10px 38px;
-    width: 200px;
-    min-height: 200px;
-  }
-}
+@import 'common/header';
+@import 'common/footer';
+@import 'components/homePage';

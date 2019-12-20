@@ -18,3 +18,19 @@ a {
     text-decoration: none;
   }
 }
+
+body {
+  background: white;
+}
+
+.button {
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background: none;
+  text-transform: uppercase;
+
+  &:focus {
+    outline: none;
+  }
+}
