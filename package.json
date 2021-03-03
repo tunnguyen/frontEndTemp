@@ -57,7 +57,7 @@
     "jsdom-global": "~3.0.2",
     "minimist": "~1.2.0",
     "mocha": "~3.4.2",
-    "pug": "~2.0.0-rc.2",
+    "pug": "~3.0.1",
     "require-dir": "~0.3.2",
     "run-sequence": "~2.0.0",
     "stylelint-config-standard": "~17.0.0",
